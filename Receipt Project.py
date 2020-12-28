@@ -1,4 +1,4 @@
-lovely_loveseat_description = "Description here, "
+lovely_loveseat_description = "Description here"
 lovely_loveseat_price = 0
 
 stylish_settee_description = "Description here"
@@ -11,7 +11,7 @@ sales_tax = 0
 
 customer_one_total = 0
 
-customer_one_itemization = (""+ lovely_loveseat_description + luxurious_lamp_description)
+customer_one_itemization = (f"{lovely_loveseat_description}, {luxurious_lamp_description}")
 
 customer_one_total += lovely_loveseat_price
 customer_one_total += luxurious_lamp_price
